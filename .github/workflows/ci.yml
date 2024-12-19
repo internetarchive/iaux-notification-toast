@@ -15,10 +15,10 @@ jobs:
     - uses: actions/setup-node@v4
 
     - name: Install dependencies
-      run: yarn install
+      run: npm install
 
     - name: Run tests
-      run: yarn run test
+      run: npm run test
 
     - name: Upload reports
       run: npx codecov
