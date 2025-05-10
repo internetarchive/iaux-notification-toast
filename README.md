@@ -18,47 +18,47 @@ This is a base template for creating Typescript WebComponents. It is based off o
 
 ## Local Demo with `web-dev-server`
 ```bash
-yarn start
+npm start
 ```
 To run a local development server that serves the basic demo located in `demo/index.html`
 
 ## Testing with Web Test Runner
 To run the suite of Web Test Runner tests, run
 ```bash
-yarn run test
+npm run test
 ```
 
 To run the tests in watch mode (for &lt;abbr title=&#34;test driven development&#34;&gt;TDD&lt;/abbr&gt;, for example), run
 
 ```bash
-yarn run test:watch
+npm run test:watch
 ```
 
 ## Linting with ESLint, Prettier, and Types
 To scan the project for linting errors, run
 ```bash
-yarn run lint
+npm run lint
 ```
 
 You can lint with ESLint and Prettier individually as well
 ```bash
-yarn run lint:eslint
+npm run lint:eslint
 ```
 ```bash
-yarn run lint:prettier
+npm run lint:prettier
 ```
 
 To automatically fix many linting errors, run
 ```bash
-yarn run format
+npm run format
 ```
 
 You can format using ESLint and Prettier individually as well
 ```bash
-yarn run format:eslint
+npm run format:eslint
 ```
 ```bash
-yarn run format:prettier
+npm run format:prettier
 ```
 
 ## Tooling configs
@@ -100,7 +100,7 @@ git push origin gh-pages
 
 You can update the current Github Page without pushing a commit by running:
 ```
-yarn run ghpages:publish
+npm run ghpages:publish
 ```
 
 This build script does the following, see `package.json`:
